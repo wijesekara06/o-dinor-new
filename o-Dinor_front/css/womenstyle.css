@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 
+/* ============================================================
+   ROOT VARIABLES
+   - Define reusable colors, sizes, and global values
+   ============================================================ */
+
 :root {
   --primary-color: #f1faff;
   --text-dark: #030712;
@@ -9,6 +14,11 @@
   /* --max-width: 1400px; */
   --max-width: 100vw;
 }
+
+/* ============================================================
+   GLOBAL RESETS
+   - Remove default margins/paddings and ensure consistent sizing
+   ============================================================ */
 
 * {
   padding: 0;
@@ -329,7 +339,6 @@ h1.mb-0.bread.color {
   background-color: var(--text-dark);
 }
 
-
 .sale__a{
   color: #fff;
 }
@@ -405,7 +414,7 @@ h1.mb-0.bread.color {
   color: var(--text-light);
 }
 
-/* ************ */
+/* ************* */
 .section1 {
   width: fit-content !important;
   height: 100%;
